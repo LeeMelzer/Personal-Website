@@ -1,6 +1,5 @@
 import React from 'react'
 import "./about.css"
-import GRAD from "../../assets/grad.jpg"
 import RSS from "../../assets/rss.jpg"
 import {FaAward} from "react-icons/fa"
 import {GiTiedScroll} from "react-icons/gi"

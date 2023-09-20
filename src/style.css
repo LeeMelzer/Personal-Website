@@ -122,7 +122,7 @@ img {
     }
 
     section {
-        margin-top: 6rem;
+        margin-top: 25rem;
     }
 }
 
@@ -134,5 +134,9 @@ img {
 
     section > h2 {
         margin-bottom: 2rem;
+    }
+
+    section {
+        margin-top: 22rem;
     }
 }

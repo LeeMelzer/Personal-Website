@@ -37,6 +37,10 @@
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
+    .projects {
+        
+    }
+    
     .portfolio__container {
         grid-template-columns: 1fr;
         gap: 1rem;

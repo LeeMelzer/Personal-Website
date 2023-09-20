@@ -13,6 +13,7 @@
 }
 
 .about__me-rss {
+    margin-left: 7rem;
     border-radius: 2rem;
     overflow: hidden;
 }
@@ -76,6 +77,10 @@ h2 {
     .about__content p {
         margin: 1rem 0 1.5rem;
     }
+
+    .about__me-rss {
+        margin-left: 0rem;
+    }
 }
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ===================== */
@@ -92,9 +97,19 @@ h2 {
 
     .about__content {
         text-align: center;
+        margin-bottom: -70rem;
     }
 
     .about__content p {
+        display: none;
         margin: 1.5rem 0;
+    }
+
+    .about__content > .btn.btn-primary {
+        display: none;
+    }
+
+    .about__me-rss {
+        margin-left: 0rem;
     }
 }
