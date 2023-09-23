@@ -1,0 +1,31 @@
+.header {
+    margin-top: 60px;
+}
+
+.headerTitles {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.headerTitleSmall {
+    position: absolute;
+    top: 8%;
+    font-size: 20px;
+}
+
+.headerTitleLarge {
+    position: absolute;
+    top: 8%;
+    font-size: 100px;
+}
+
+.headerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 600px;
+    margin-top: 210px;
+}

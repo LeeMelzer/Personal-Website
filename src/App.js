@@ -6,17 +6,14 @@ import Blog from "./components/blog/blog.js"
 import Footer from "./components/footer/footer.js"
 import Projects from "./components/projects/projects.js"
 import Contact from "./components/contact/contact.js"
+import BlogPosts from "./components/blogPosts/BlogPosts.js"
+import TopBar from "./components/blogPosts/TopBar.js"
 
 export default function App() {
   return (
     <>
-      <Header />
-      <Nav />
-      <About />
-      <Projects />
-      <Blog />
-      <Contact />
-      <Footer />
+      <TopBar/>
+      <BlogPosts />
     </>
   )
 }
