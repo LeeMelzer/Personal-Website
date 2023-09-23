@@ -1,5 +1,5 @@
 import "./header.css"
-import SWIMMER from "../../assets/learn.jpg"
+import SWIMMER from "../../../assets/learn.jpg"
 
 export default function Header() {
   return (
