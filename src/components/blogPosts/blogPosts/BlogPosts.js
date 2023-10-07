@@ -10,8 +10,7 @@ export default function BlogPosts() {
   return (
     <>
     <TopBar/>
-    <Header/>
-    <Posts/>
+    <SinglePost/>
     </>
   )
 }
