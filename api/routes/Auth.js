@@ -5,6 +5,22 @@ const bcrypt = require("bcrypt");
 var cors = require("cors");
 router.use(cors());
 
+//REGISTER
+router.post("/register", async (req, res) => {
+    try{
+        const salt = await bcrypt.genSalt(10);
+        const hashedPass = await bcrypt.hash(req.body.password,salt);
+        const newUser = new User({
+            username: req.body.username,
+            password: hashedPass,
+        });
+        const user = await newUser.save();
+        res.status(200).json(user);
+    } catch(err){
+        res.status(500).json(err);
+    }
+});
+
 //LOGIN
 router.post("/login", async (req,res) => {
     try {
@@ -21,3 +37,5 @@ router.post("/login", async (req,res) => {
         res.status(500).json(err);
     }
 });
+
+module.exports = router;
