@@ -1,13 +1,14 @@
 import "./singlePost.css"
-import SKI from "../../assets/skiing.jpg"
 import { useLocation } from "react-router-dom"
 import { useEffect, useState } from "react";
 import axios from "axios";
+import TopBar from "../blogPosts/topBar/TopBar"
 
 export default function SinglePost() {
   const location = useLocation();
   const path = location.pathname.split("/")[2];
   const [post, setPost] = useState({});
+  const PF = "http://localhost:5000/images/";
 
   useEffect(()=>{
     const getPost = async ()=>{
@@ -17,18 +18,21 @@ export default function SinglePost() {
     getPost();
   },[path])
   return (
+    <>
+    <TopBar/>
     <div className="singlePost">
       <div className="singlePostWrapper">
         {post.photo && (
-          <img className="singlePostImg" src={post.photo} alt=""/>
+          <img className="singlePostImg" src={PF + post.photo} alt=""/>
         )}
         <h1 className="singlePostTitle">{post.title}</h1>
         <div className="singlePostInfo">
           <span className="singlePostAuthor">Author: <b>{post.username}</b></span>
           <span className="singlePostDate">{new Date(post.createdAt).toDateString()}</span>
         </div>
-          <p className="singlePostDesc">{post.desc}</p>
+          <pre><p className="singlePostDesc">{post.desc}</p></pre>
       </div>
     </div>
+    </>
   )
 }

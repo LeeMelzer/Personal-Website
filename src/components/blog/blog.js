@@ -1,14 +1,12 @@
-import React from 'react'
 import "./blog.css"
 
-const experience = () => {
+export default function Experience() {
+
   return (
     <section id="blog">
       <h5>Follow My Journey</h5>
       <h2>Blog</h2>
-      <p className="message">The blog is temporarily down for maintenance. Please check back soon!</p>
+      <p className="message">How in the hell do I make this work???</p>
     </section>
   )
 }
-
-export default experience

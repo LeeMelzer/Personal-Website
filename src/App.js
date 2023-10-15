@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import Header from "./components/header/header.js"
 import Nav from "./components/nav/nav.js"
 import About from "./components/about/about.js"
@@ -18,11 +18,12 @@ import {
   Route,
   Link
 } from 'react-router-dom'
+import { Context } from './context/Context.js'
 
 export default function App() {
+  const {user} = useContext(Context);
   return (
     <Router>
-      <TopBar/>
       <Routes>
         <Route path="/" element={<Home/>}/>
         <Route path="/login" element={<Login/>}/>

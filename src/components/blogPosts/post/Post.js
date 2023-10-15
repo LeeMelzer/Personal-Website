@@ -1,15 +1,15 @@
 import "./post.css"
-import SKI from "../../../assets/skiing.jpg"
 import {Link} from "react-router-dom";
 
 export default function Post({post}) {
+  const PF = "http://localhost:5000/images/"
   return (
     <div className="post">
       {post.photo && (
-        <img className="postImg" src={post.photo} alt=""/>
+        <img className="postImg" src={PF + post.photo} alt=""/>
       )}
         <div className="postInfo">
-          <Link to={`/post/${post._id}`} classname="link">
+          <Link to={`/post/${post._id}`} className="link">
           <span className="postTitle">{post.title}</span>
           </Link>
             <hr/>
