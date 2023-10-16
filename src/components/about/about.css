@@ -63,6 +63,10 @@ h2 {
     font-size: 3.5rem;
 }
 
+.about__content {
+    margin-right: 50px;
+}
+
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
     .about__container {
@@ -80,6 +84,10 @@ h2 {
 
     .about__me-rss {
         margin-left: 0rem;
+    }
+
+    .about__content {
+        margin-right: 0px;
     }
 }
 

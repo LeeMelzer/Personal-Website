@@ -56,6 +56,9 @@ input, textarea {
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ===================== */
 @media screen and (max-width: 1024px) {
+    #contact {
+        margin-top: 1100px;
+    }
     .contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -64,6 +67,10 @@ input, textarea {
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ===================== */
 @media screen and (max-width: 600px) {
+    #contact {
+        margin-top: 1100px;
+    }
+    
     .contact__container {
         grid-template-columns: 1fr;
         width: var(--container-width-sm);
