@@ -30,7 +30,7 @@ export default function SinglePost() {
           <span className="singlePostAuthor">Author: <b>{post.username}</b></span>
           <span className="singlePostDate">{new Date(post.createdAt).toDateString()}</span>
         </div>
-          <pre><p className="singlePostDesc">{post.desc}</p></pre>
+          <pre className="hate"><p className="singlePostDesc">{post.desc}</p></pre>
       </div>
     </div>
     </>

@@ -36,11 +36,15 @@
     line-height: 40px;
     margin-right: auto;
     margin-left: auto;
-    color: rgb(185, 185, 201);
+    color: rgb(195, 195, 212);
 }
 
 .singlePostDesc::first-letter {
     margin-left: 20px;
     font-size: 30px;
     font-weight: 600;
+}
+
+.hate {
+    white-space: pre-wrap;
 }
