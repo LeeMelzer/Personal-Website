@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c90cca7.css",
+    "main.js": "/static/js/main.2478c971.js",
+    "static/media/rss.jpg": "/static/media/rss.94c21ff9c1a0ddf72191.jpg",
+    "static/media/reactIcon.png": "/static/media/reactIcon.81ed438b18e24116794d.png",
+    "static/media/GameGraphic.jpg": "/static/media/GameGraphic.e096329c69b123eafafc.jpg",
+    "static/media/Lee_Melzer.pdf": "/static/media/Lee_Melzer.91bfc696e1741a26dee0.pdf",
+    "static/media/learn.jpg": "/static/media/learn.fd41d48e2364a7e4a9c1.jpg",
+    "static/media/Me.jpg": "/static/media/Me.a8802c4f6778653b08a9.jpg",
+    "static/media/flag.jpg": "/static/media/flag.d8ed50fd69ee8fae1032.jpg",
+    "index.html": "/index.html",
+    "main.9c90cca7.css.map": "/static/css/main.9c90cca7.css.map",
+    "main.2478c971.js.map": "/static/js/main.2478c971.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c90cca7.css",
+    "static/js/main.2478c971.js"
+  ]
+}
