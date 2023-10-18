@@ -20,7 +20,7 @@ export default function Experience() {
       <h5>Follow My Journey</h5>
       <h2>Blog</h2>
       <div className="posts">{posts.map(p => <Post post={p}/>)}
-      <a href="http://localhost:3000/blogPosts" className="btn btn-primary">See Blog Posts</a>
+      <a href="/blogPosts" className="btn btn-primary">See Blog Posts</a>
       </div>
       
     </section>

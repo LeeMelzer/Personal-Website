@@ -22,10 +22,10 @@ export default function TopBar() {
         <div className="topCenter">
             <ul className="topList">
                 <li className="topListItem">
-                  <Link className="link" to="http://localhost:3000">HOME</Link>
+                  <Link className="link" to="/">HOME</Link>
                 </li>
                 <li className="topListItem">
-                  <Link className="link" to="http://localhost:3000/blogPosts">BLOG POSTS</Link>
+                  <Link className="link" to="/blogPosts">BLOG POSTS</Link>
                 </li>
             </ul>
         </div>
